@@ -1,0 +1,62 @@
+digital: 0 ou 1
+analógica: Tensão de 0 até algum volt (numeros quebrados, float)
+
+Potênciometro: tipo um resistor que altera a sua resistência
+
+
+CC -> Corrente Contínua
+CA -> Corrente Alternada
+
+
+DRAM (dinâmica): Usada na memória Principal
+SRAM (estática): Usada na memória Cache, consome mais energia e é mais rápido
+
+
+ROM: onde é armazenado info menores, e essas infos não podem ser editadas(tipo memória de placa-mãe, BIOS)
+
+PROM: escita por meio elétrico e só pode ser escrito uma vez
+
+EPROM: leitura e escrita é igual a prom, porém, antes de uma operação de escrita, toda a memória é apagada por meio de radiação ultravioleta
+
+EEPROM: mesma coisa do EPROM porém, as não são apagadas os dados para fazer uma operação de escrita
+
+Memória-Flash: tipo de dispositivo de armazenamento não volátil, que pode ser eletricamentee apagado e reprogramado. EX: pendrive, SSD, cartões de memória etc.
+
+
+Sistemas Embarcados: um sistema eletrônico microprocessado, completamente encapsulado, dedicado ao dispositivo ou sistema que ele controla.
+
+Microprocessadores: dispositovo lógico programável(Precisa de periféricos externos como: memória (RAM,ROM) e portas de entrada e saídas, para a
+formação de um Sistema mínimo).
+
+Microcontroladores: Um computador completo construído num único Circuito integrado (Um micro-controlador nada mais é do que um sistema micro-processado com todos
+os dispositivos de suporte integrados dentro de um único chip).
+
+BIOS (Basic Input/Output System): É o conjunto mínimo de instruções necessárias para a inicialização do computador. Também gerencia o fluxo de dados entre o
+sistema operacional do computador e os dispositivos periféricos conectados.
+
+
+ -- Sistemas Computacionais --
+RISC: (Situações mais simples)
+ - Instruções de máquina
+ - Execuçao das instruções
+ - Instruções simples executadas em um ciclo de clock
+ - Quebra a instrução em várias menores e mais simples e todas assumem um tamanho padrão
+
+CISC: (Situações mais complexas)
+ - Instruções de máquina
+ - Conversão p/ micro-código
+ - Micro-instruções
+ - Execução das micro-instruções
+ - Instruções completas que exigem vários ciclos de relógio para serem executadas. 
+ - Conjunto maior de instruções que podem ser processados
+
+
+ -- Pipeline --
+
+Paralelismo de Instruções: é a execução de mais instruções ao mesmo tempo pelo CPU, afim de aumentar o número de instruções por ciclo de relógio.
+
+
+
+
+
+
