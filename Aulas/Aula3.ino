@@ -141,3 +141,37 @@ void loop() {
     }
 }
 
+
+
+// LCD temperatura e humidade \\
+
+#include <LiquidCrystal.h>
+#include <dht.h>
+
+dht sensor;
+int D15 = 22;
+
+
+//              D15,RX2,TX2,D18,D19,D21,D23
+LiquidCrystal lcd(19, 23, 18, 17, 16, 15);
+
+void setup() {
+  Serial.begin(9600);
+  delay(2000);
+  lcd.begin(16, 2);
+
+}
+
+void loop() {
+  
+  sensor.read11(D15);
+  lcd.setCursor(0,0);
+  lcd.print("Humidade: ");
+  lcd.print(sensor.humidity);
+  lcd.setCursor(0,1);
+  lcd.print("Temperatura: ");
+  lcd.print(sensor.temperature, 0);
+  delay(2000);
+  lcd.clear();
+}
+
