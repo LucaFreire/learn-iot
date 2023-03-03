@@ -152,7 +152,7 @@ dht sensor;
 int D15 = 22;
 
 
-//              D15,RX2,TX2,D18,D19,D21,D23
+//              D15,RX2,TX2,D18,D19,D23
 LiquidCrystal lcd(19, 23, 18, 17, 16, 15);
 
 void setup() {
@@ -174,4 +174,3 @@ void loop() {
   delay(2000);
   lcd.clear();
 }
-
