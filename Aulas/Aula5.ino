@@ -36,10 +36,10 @@ void setup()
   Serial.println(WiFi.localIP());
 }
 
-int arr[] = {sensor.temperature, sensor.humidity};
+float arr[] = {sensor.temperature, sensor.humidity};
 
-int sense = sensor.temperature;
-int humid = sensor.humidity;
+float sense = sensor.temperature;
+float humid = sensor.humidity;
 
 void loop() {
   digitalWrite(2, LOW);
