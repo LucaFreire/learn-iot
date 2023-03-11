@@ -4,7 +4,8 @@
 
 #include <LiquidCrystal.h>
 
-//              D15,RX2,TX2,D18,D19,D21,D23
+
+//              D15,RX2,TX2,D18,D19,D23
 LiquidCrystal lcd(19, 23, 18, 17, 16, 15);
 void setup() {
   lcd.begin(16, 2);
@@ -57,7 +58,8 @@ void loop() {
 
 #include <LiquidCrystal.h>
 
-//              D15,RX2,TX2,D18,D19,D21,D23
+
+//              D15,RX2,TX2,D18,D19,D23
 LiquidCrystal lcd(19, 23, 18, 17, 16, 15);
 
 byte customChar[] = {
@@ -93,7 +95,8 @@ void loop() {
 
 #include <LiquidCrystal.h>
 
-//              D15,RX2,TX2,D18,D19,D21,D23
+
+//              D15,RX2,TX2,D18,D19,D23
 LiquidCrystal lcd(19, 23, 18, 17, 16, 15);
 
 byte arrow[8] = {
@@ -149,7 +152,7 @@ void loop() {
 #include <dht.h>
 
 dht sensor;
-int D15 = 22;
+int D22 = 22;
 
 
 //              D15,RX2,TX2,D18,D19,D23
@@ -164,7 +167,7 @@ void setup() {
 
 void loop() {
   
-  sensor.read11(D15);
+  sensor.read11(D22);
   lcd.setCursor(0,0);
   lcd.print("Humidade: ");
   lcd.print(sensor.humidity);
