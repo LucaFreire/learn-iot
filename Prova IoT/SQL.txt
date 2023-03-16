@@ -1,0 +1,14 @@
+use tempdb
+
+CREATE TABLE dbo.Sensor
+(
+	Contador int Identity(1,1),
+	Temperatura FLOAT, 
+	Umidade FLOAT, 
+	Tempo DATE DEFAULT GETDATE()
+)
+
+
+select * from dbo.Sensor
+
+

@@ -43,4 +43,5 @@ def get_info_by_name(Nome, country = ''): # Desafio
     print("Average age:", infos["age"])
     print("Count:", infos["count"])
     
+# digite seu nome
 get_info_by_name("Lucas")

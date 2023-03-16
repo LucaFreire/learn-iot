@@ -56,11 +56,11 @@ CISC: (Situações mais complexas)
 Paralelismo de Instruções: é a execução de mais instruções ao mesmo tempo pelo CPU, afim de aumentar o número de instruções por ciclo de relógio.
 
 
- -- Portas Analógica --
+ -- Portas Analógicas --
 
 Nome: ADC
 
--- Porta Digital --
+-- Portas Digitais --
 
 Nome: GPIO
  

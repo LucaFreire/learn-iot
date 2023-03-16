@@ -1,8 +1,6 @@
 import requests 
 import pyodbc
-import time
-import matplotlib.pyplot as plt
-import numpy as np
+
 
 lista=[]
 listatempo=[]
@@ -38,4 +36,3 @@ while True:
     valores = get_infos_DHT()
     View(valores)
     Insert(valores)
-    time.sleep(60)

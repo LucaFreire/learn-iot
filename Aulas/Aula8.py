@@ -53,8 +53,8 @@ for i, e in enumerate(listatempo):
         listaX.append(i)
     
 
-plt.plot(horas, listaTemp, label="Temperaturas")
-plt.plot(horas, listaUmid, label="Umidades")
+plt.plot(horas, listaTemp, label="Temperatura")
+plt.plot(horas, listaUmid, label="Umidade")
 plt.xticks(listaX)
 plt.yticks(listaY)
 plt.legend()
